@@ -1,6 +1,6 @@
 
 
-//Program Written by and Tahir
+//Program Written by Tahir Mahmood
 
 // Practice program to review
 //loops, functions, dynamic allocation,
@@ -313,88 +313,4 @@ else
 }
     
     
-
-
-
-
-
-
-
-
-
-
-    /*
-    std::cout << "Do you have current inventory? (Y/N) ";
-    std::cin >> input;
-
-    if (input == "Y" || input == "y") {
-    std::string filename;
-    std::cout << "Please enter the name of the file to read in: ";
-    std::cin >> filename;
-    std::ifstream input_file(filename);
-    int file_count = 0;
-    while (input_file >> new_name >> new_hair >> new_color)
-    {
-        if (file_count < NUM_CATS)
-        {
-            shelter[count].set_name(new_name);
-            shelter[count].set_hair(new_hair);
-            shelter[count].set_color(new_color);
-            count++;
-            file_count++;
-        }
-        else 
-        {
-            std::cout << "The file contains the maximum number of cats. You cannot add more cats." << std::endl;
-            break;
-        }
-    }
-    //input_file.close();
-    if (count < NUM_CATS) 
-    {
-        std::cout << "There are " << NUM_CATS - count << " spots left for input." << std::endl;
-    }
-    else
-    {
-        std::cout << "The shelter is full. You cannot add more cats." << std::endl;
-    }
-    
-    }
-
-    
-    // Ask for user input for new pets and add to array as needed
-    while (count < NUM_CATS) {
-        // Instructions for the user to enter the pet's information
-        std::cout << "Please enter the pet's name, hair type, and color or -1 to exit: " << std::endl;
-
-        //Reading input from the user
-        std::cout << "Name: ";
-        std::cin >> new_name;
-        if (new_name == "-1") // breaks out of the loop if the user enters -1 (our sentinel value)
-        {
-            break;
-        }
-        std::cout << "Hair type: ";
-        std::cin >> new_hair;
-        std::cout << "Color: ";
-        std::cin >> new_color;
-
-        //Setting the name, hair type, and color of the pet
-        shelter[count].set_name(new_name);
-        shelter[count].set_hair(new_hair);
-        shelter[count].set_color(new_color);
-        count++; //counts how many times the user has inputted a pet and its info
-    }
-
-    // Writing the pets' information to the file
-    std::ofstream output_file("output.txt");
-    for (int i = 0; i < count; i++)
-    {
-        output_file << shelter[i].get_name() << "|" << shelter[i].get_hair() << "|" << shelter[i].get_color() << "\n";
-    }
-    output_file.close();
-    std::cout << "Please check output file for pet information" << std::endl;*/
-    
-    
-
-
+   
