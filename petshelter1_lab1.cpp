@@ -1,6 +1,6 @@
 
 
-//Program Written by and Tahir
+//Program Written by Tahir Mahmood
 
 // Practice program to review
 //loops, functions, dynamic allocation,
