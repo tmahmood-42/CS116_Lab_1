@@ -163,6 +163,7 @@ int main()
             std::cout << "Please enter the name of the file to read in: ";
             std::cin >> filename;
             input_file.open(filename);
+            //Input Validation for File Input
             if (!input_file)
             {
                 std::cerr << "Error opening file, Please try again." << std::endl;
